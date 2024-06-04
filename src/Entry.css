@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  
+
+  
+  .hole-section {
+    /* background-color: #424242; */
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    box-shadow: 0 1px 3px #7250c1;
+  }
+  
+  input[type="number"] {
+    /* background-color: #424242; */
+    background-color: black;
+    border: 1px solid #ab88fb;
+    border-radius: 5px;
+    height: 29px;
+    margin-bottom: 10px;
+    margin-inline: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+
+  #bottom-button {
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #ab88fb;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7e55dd;
+  }
+  
+  
+  select {
+    /* background-color: #4a4a4a;  */
+    background-color: black;
+    color: white;             
+    border: 1px solid #ab88fb; 
+    border-radius: 4px;       
+    padding: 5px;             
+    font-size: 16px;          
+  }
+  
+  select option {
+    background-color: #4a4a4a; 
+    color: white;             
+  }
+  
+  
+ 
+  
+
